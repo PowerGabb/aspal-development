@@ -1,5 +1,5 @@
-import React, { useState } from 'react'
-import { FaCog, FaIndustry, FaTools, FaBoxes, FaChevronLeft, FaChevronRight, FaPlay, FaFacebook, FaTwitter, FaInstagram, FaLinkedin, FaRoad, FaTh, FaCar, FaHome } from 'react-icons/fa'
+import { useState } from 'react'
+import { FaChevronLeft, FaChevronRight, FaPlay, FaFacebook, FaTwitter, FaInstagram, FaLinkedin, FaRoad, FaTh, FaCar, FaHome } from 'react-icons/fa'
 
 export default function Home() {
   const [activeStep, setActiveStep] = useState(1)
