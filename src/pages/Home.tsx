@@ -271,19 +271,19 @@ export default function Home() {
               </button>
             </div>
 
-            {/* CAD Card */}
-            <div className="absolute top-6 left-6 right-6 lg:top-6 lg:right-6 lg:left-auto bg-white rounded-2xl p-4 lg:p-6 shadow-xl lg:max-w-sm">
-              <h3 className="text-lg lg:text-xl font-bold text-gray-900 mb-3 lg:mb-4 leading-tight">
+            {/* CAD Card - Desktop Only */}
+            <div className="hidden lg:block absolute top-6 right-6 bg-white rounded-2xl p-6 shadow-xl max-w-sm">
+              <h3 className="text-xl font-bold text-gray-900 mb-4 leading-tight">
                 {currentStep.title}
               </h3>
-              <p className="text-gray-600 text-sm lg:text-base mb-4">
+              <p className="text-gray-600 text-base mb-4">
                 {currentStep.description}
               </p>
               <a 
                 href="https://wa.me/6283247981703" 
                 target="_blank" 
                 rel="noopener noreferrer"
-                className="btn btn-primary bg-blue-600 hover:bg-blue-700 border-blue-600 text-white w-full rounded-xl text-sm lg:text-base inline-flex items-center justify-center"
+                className="btn btn-primary bg-blue-600 hover:bg-blue-700 border-blue-600 text-white w-full rounded-xl text-base inline-flex items-center justify-center"
               >
                 Pelajari Lebih Lanjut Tentang Proses Kami
                 <svg className="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -291,6 +291,27 @@ export default function Home() {
                 </svg>
               </a>
             </div>
+          </div>
+
+          {/* CAD Card - Mobile Only (Below Banner) */}
+          <div className="lg:hidden mt-6 bg-white rounded-2xl p-4 shadow-xl">
+            <h3 className="text-lg font-bold text-gray-900 mb-3 leading-tight">
+              {currentStep.title}
+            </h3>
+            <p className="text-gray-600 text-sm mb-4">
+              {currentStep.description}
+            </p>
+            <a 
+              href="https://wa.me/6283247981703" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="btn btn-primary bg-blue-600 hover:bg-blue-700 border-blue-600 text-white w-full rounded-xl text-sm inline-flex items-center justify-center"
+            >
+              Pelajari Lebih Lanjut Tentang Proses Kami
+              <svg className="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+              </svg>
+            </a>
           </div>
         </div>
 
