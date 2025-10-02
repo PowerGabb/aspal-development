@@ -96,7 +96,7 @@ export default function Home() {
             <div className="navbar-end gap-2 lg:gap-3">
               {/* Mobile Contact Button */}
               <a 
-                href="https://wa.me/6283247981703" 
+                href="https://wa.me/6283147981703" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="btn bg-gradient-to-r from-orange-500 to-orange-600 hover:from-orange-600 hover:to-orange-700 border-none text-white px-4 lg:px-8 py-2 lg:py-3 rounded-xl font-semibold shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300 text-sm lg:text-base"
@@ -176,7 +176,7 @@ export default function Home() {
                 Solusi pengaspalan berkualitas tinggi dan terjangkau untuk berbagai kebutuhan infrastruktur di seluruh Indonesia.
               </p>
               <a 
-                href="https://wa.me/6283247981703" 
+                href="https://wa.me/6283147981703" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="btn btn-primary bg-blue-600 hover:bg-blue-700 border-blue-600 text-white px-8 py-3 rounded-full inline-flex items-center"
@@ -280,7 +280,7 @@ export default function Home() {
                 {currentStep.description}
               </p>
               <a 
-                href="https://wa.me/6283247981703" 
+                href="https://wa.me/6283147981703" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="btn btn-primary bg-blue-600 hover:bg-blue-700 border-blue-600 text-white w-full rounded-xl text-base inline-flex items-center justify-center"
@@ -302,7 +302,7 @@ export default function Home() {
               {currentStep.description}
             </p>
             <a 
-              href="https://wa.me/6283247981703" 
+              href="https://wa.me/6283147981703" 
               target="_blank" 
               rel="noopener noreferrer"
               className="btn btn-primary bg-blue-600 hover:bg-blue-700 border-blue-600 text-white w-full rounded-xl text-sm inline-flex items-center justify-center"
@@ -702,12 +702,12 @@ export default function Home() {
                     <div className="flex items-center gap-3">
                       <span className="text-gray-600">Dimas Rangga Buana:</span>
                       <a 
-                        href="https://wa.me/6283247981703" 
+                        href="https://wa.me/6283147981703" 
                         target="_blank" 
                         rel="noopener noreferrer"
                         className="text-blue-600 hover:text-blue-700 font-medium"
                       >
-                        0832-4798-1703
+                        0831-4798-1703
                       </a>
                     </div>
                   </div>
