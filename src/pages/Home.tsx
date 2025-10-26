@@ -732,7 +732,7 @@ export default function Home() {
                   <a href="#" className="w-10 h-10 bg-black rounded-full flex items-center justify-center hover:bg-gray-800 transition-colors">
                     <FaTwitter className="text-white text-lg" />
                   </a>
-                  <a href="#" className="w-10 h-10 bg-black rounded-full flex items-center justify-center hover:bg-gray-800 transition-colors">
+                  <a href="https://www.instagram.com/buana_aspal09/" target="_blank" rel="noopener noreferrer" className="w-10 h-10 bg-black rounded-full flex items-center justify-center hover:bg-gray-800 transition-colors">
                     <FaInstagram className="text-white text-lg" />
                   </a>
                   <a href="#" className="w-10 h-10 bg-black rounded-full flex items-center justify-center hover:bg-gray-800 transition-colors">
